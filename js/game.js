@@ -125,6 +125,16 @@ function restart() {
     document.querySelector('.line-3 .column-1').style.background = 'grey'
     document.querySelector('.line-3 .column-2').style.background = 'grey'
     document.querySelector('.line-3 .column-3').style.background = 'grey'
+
+    position[0][0] = null
+    position[0][1] = null
+    position[0][2] = null
+    position[1][0] = null
+    position[1][1] = null
+    position[1][2] = null
+    position[2][0] = null
+    position[2][1] = null
+    position[2][2] = null
 }
 
 function update(selector) {
